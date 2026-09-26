@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="190" viewBox="0 0 960 190" role="img" aria-labelledby="title desc">
+  <title id="title">Mummon Tupa</title>
+  <desc id="desc">Vaakasuuntainen Mummon Tupa -sanamerkki verkkosivun otsakkeeseen.</desc>
+  <path d="M28 22 H932" stroke="#e99a45" stroke-width="7" stroke-linecap="round"/>
+  <text x="480" y="121" text-anchor="middle" fill="#f5ecd8" font-family="DejaVu Serif" font-weight="bold" font-size="84" letter-spacing="-1">MUMMON TUPA</text>
+  <path d="M28 158 H932" stroke="#e99a45" stroke-width="7" stroke-linecap="round"/>
+</svg>

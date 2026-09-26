@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-labelledby="title desc">
+  <title id="title">Mummon Tupa</title>
+  <desc id="desc">Uusi kyltin typografiasta inspiroitunut Mummon Tupa -sanamerkki.</desc>
+  <path d="M82 58 Q480 -10 878 58" fill="none" stroke="#e99a45" stroke-width="12" stroke-linecap="round"/>
+  <text x="480" y="167" text-anchor="middle" fill="#f5ecd8" font-family="DejaVu Serif" font-weight="bold" font-size="119" letter-spacing="3">MUMMON</text>
+  <text x="480" y="307" text-anchor="middle" fill="#f5ecd8" font-family="DejaVu Serif" font-weight="bold" font-size="159" letter-spacing="5">TUPA</text>
+  <circle cx="222" cy="358" r="5" fill="#e99a45"/>
+  <path d="M247 358 H365 M595 358 H713" fill="none" stroke="#e99a45" stroke-width="3"/>
+  <text x="480" y="369" text-anchor="middle" fill="#e99a45" font-family="DejaVu Sans" font-weight="bold" font-size="30" letter-spacing="5">ESPOO</text>
+  <circle cx="738" cy="358" r="5" fill="#e99a45"/>
+</svg>
