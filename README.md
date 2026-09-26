@@ -11,10 +11,10 @@ Esikatselussa on `noindex`, kunnes asiakas on hyväksynyt sisällön ja sivu sii
 - `assets/ulkokyltti.webp`: paikan kyltti ja saapumisohje
 - `assets/super-sunday-jams.webp`: tapahtumajuliste
 - `assets/biljardi.webp` ja `assets/baari.webp`: Villen omista kuvista verkkokäyttöön optimoidut versiot
-- `assets/mummon-tupa-logo.svg`: uusi vektorisanamerkki kyltin typografian pohjalta
-- `assets/mummon-tupa-logo-horizontal.svg`: vektorisanamerkin vaakaversio headeriin
+- `assets/mummon-tupa-facebook-post.png`: asiakkaan omasta Facebook-julkaisusta saatu alkuperäinen piirroslogo. Sivun CSS näyttää kuvasta vain logon alueen. Kuvassa itsessään on myös vanhan julkaisun yhteystietoja, eikä niitä käytetä sivun tietoina.
+- `assets/mummon-tupa-logo.svg` ja `assets/mummon-tupa-logo-horizontal.svg`: aiemmat vaihtoehtoiset vektorisanamerkit, joita sivu ei enää näytä
 
-Nykyisen piirrosmummon sisältävää vanhaa logoa ei ole jäljennetty; käytettävissä oleva rasteriversio on liian pieni tarkkaan vektorointiin. SVG-tiedostojen tekstit on muunnettu poluiksi, joten fonttia ei tarvita lataajalla.
+Facebook-kuvan logo näytetään alkuperäisinä pikseleinä, jotta piirrosta ei muuteta vahingossa. Se ei ole vektorilogo, ja kuvan tarkkuus rajoittaa sen käyttöä suurissa painotuotteissa. Uusista, tarkemmista alkuperäisistä logotiedostoista voi myöhemmin tehdä varsinaisen SVG-version.
 
 ## Vercel
 
