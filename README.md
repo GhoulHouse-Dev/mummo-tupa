@@ -17,11 +17,11 @@ Facebook-kuvan logo näytetään alkuperäisinä pikseleinä, jotta piirrosta ei
 
 ## Vercel
 
-GitHubin lähde on `GhoulHouse-Dev/mummo-tupa`, haara `main`. Vercelin projektin Git-lähteeksi on kytkettävä juuri tämä repo; vanha `Jambovisuaalit/mummo-tupa`-kytkentä ei saa tämän repon uusia muutoksia. Valitse Vercelissä **Other**-framework, Root Directory repon juureen, Build Command tyhjäksi ja Output Directoryksi `.` tarvittaessa.
+Esikatselu on osoitteessa [mummo-tupa-espoo.vercel.app](https://mummo-tupa-espoo.vercel.app/). Vercel-projekti `mummo-tupa-espoo` seuraa kloonattua repoaan `Jambovisuaalit/mummo-tupa-espoo` (`main`). Tämä repo `GhoulHouse-Dev/mummo-tupa` on alkuperäinen lähde, mutta sen uudet commitit eivät päivity Verceliin automaattisesti. Vie muutokset Vercelin seuraamaan repoon tai vaihda Vercelin Git-lähde tähän repoon ennen seuraavaa julkaisua.
 
-[Luo uusi Vercel-projekti tästä lähdekoodista](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FGhoulHouse-Dev%2Fmummo-tupa&project-name=mummontupa-espoo). Linkki esitäyttää julkisen lähderepon ja ehdottaa projektin nimeksi `mummontupa-espoo`. Tarkista asetukset ja valitse **Deploy**. Vercel antaa projektille `.vercel.app`-osoitteen, kun ensimmäinen deployment on valmis.
+Staattisen sivun asetukset: **Other**-framework, Root Directory repon juuressa, Build Command tyhjä, Output Directory `.` tarvittaessa.
 
-## Ennen julkista domainia
+## Ennen omaa verkkotunnusta ja lopullista julkaisua
 
 1. Vahvista asiakkaalta puhelin, aukioloajat, tapahtumat ja kuvan sekä julisteen käyttöoikeus.
 2. Hero käyttää Villen aitoa kuvaa biljardipöydästä. Jos uusi terävämpi sisätilan vaakakuva saadaan, vaihda se hero-kuvaksi.
