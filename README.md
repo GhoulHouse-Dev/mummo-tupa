@@ -19,6 +19,8 @@ Facebook-kuvan logo näytetään alkuperäisinä pikseleinä, jotta piirrosta ei
 
 GitHubin lähde on `GhoulHouse-Dev/mummo-tupa`, haara `main`. Vercelin projektin Git-lähteeksi on kytkettävä juuri tämä repo; vanha `Jambovisuaalit/mummo-tupa`-kytkentä ei saa tämän repon uusia muutoksia. Valitse Vercelissä **Other**-framework, Root Directory repon juureen, Build Command tyhjäksi ja Output Directoryksi `.` tarvittaessa.
 
+[Luo uusi Vercel-projekti tästä lähdekoodista](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FGhoulHouse-Dev%2Fmummo-tupa&project-name=mummontupa-espoo). Linkki esitäyttää julkisen lähderepon ja ehdottaa projektin nimeksi `mummontupa-espoo`. Tarkista asetukset ja valitse **Deploy**. Vercel antaa projektille `.vercel.app`-osoitteen, kun ensimmäinen deployment on valmis.
+
 ## Ennen julkista domainia
 
 1. Vahvista asiakkaalta puhelin, aukioloajat, tapahtumat ja kuvan sekä julisteen käyttöoikeus.
