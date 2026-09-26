@@ -1,6 +1,6 @@
-# Mummon Tupa — Vercel-esikatselu
+# Mummon Tupa — verkkosivun lähdekoodi
 
-Kevyt yhden sivun esikatselu. Ei asennettavia riippuvuuksia eikä rakennusvaihetta.
+Kevyt, responsiivinen yhden sivun esikatselu. Ei asennettavia riippuvuuksia eikä rakennusvaihetta.
 
 Esikatselussa on `noindex`, kunnes asiakas on hyväksynyt sisällön ja sivu siirretään omalle verkkotunnukselle.
 
@@ -12,13 +12,12 @@ Esikatselussa on `noindex`, kunnes asiakas on hyväksynyt sisällön ja sivu sii
 - `assets/super-sunday-jams.webp`: tapahtumajuliste
 - `assets/biljardi.webp` ja `assets/baari.webp`: Villen omista kuvista verkkokäyttöön optimoidut versiot
 - `assets/mummon-tupa-facebook-post.png`: asiakkaan omasta Facebook-julkaisusta saatu alkuperäinen piirroslogo. Sivun CSS näyttää kuvasta vain logon alueen. Kuvassa itsessään on myös vanhan julkaisun yhteystietoja, eikä niitä käytetä sivun tietoina.
-- `assets/mummon-tupa-logo.svg` ja `assets/mummon-tupa-logo-horizontal.svg`: aiemmat vaihtoehtoiset vektorisanamerkit, joita sivu ei enää näytä
 
 Facebook-kuvan logo näytetään alkuperäisinä pikseleinä, jotta piirrosta ei muuteta vahingossa. Se ei ole vektorilogo, ja kuvan tarkkuus rajoittaa sen käyttöä suurissa painotuotteissa. Uusista, tarkemmista alkuperäisistä logotiedostoista voi myöhemmin tehdä varsinaisen SVG-version.
 
 ## Vercel
 
-Vie hakemisto GitHub-repoon ja valitse Vercelissä **Other**-framework. Root Directory on hakemisto, jossa `index.html` sijaitsee. Build Command jätetään tyhjäksi ja Output Directoryksi asetetaan `.` tarvittaessa. Git-integraatio tekee esikatselulinkin.
+GitHubin lähde on `GhoulHouse-Dev/mummo-tupa`, haara `main`. Vercelin projektin Git-lähteeksi on kytkettävä juuri tämä repo; vanha `Jambovisuaalit/mummo-tupa`-kytkentä ei saa tämän repon uusia muutoksia. Valitse Vercelissä **Other**-framework, Root Directory repon juureen, Build Command tyhjäksi ja Output Directoryksi `.` tarvittaessa.
 
 ## Ennen julkista domainia
 
